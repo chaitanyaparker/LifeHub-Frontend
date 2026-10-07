@@ -1,0 +1,336 @@
+{
+  "users": [
+    {
+      "id": "usr_chaitanya_01",
+      "firstName": "Chaitanya",
+      "lastName": "Parker",
+      "username": "chaitanya_p",
+      "email": "chaitanyaparker08@gmail.com",
+      "passwordHash": "Password123!",
+      "avatarUrl": "/src/assets/images/user_profile_avatar_1791308904789.jpg",
+      "isEmailVerified": true,
+      "authProvider": "google",
+      "createdAt": "2026-09-27T13:30:48.954Z",
+      "lastLoginAt": "2026-10-07T14:08:57.045Z",
+      "bio": "Building life systems, routines, and high-impact software.",
+      "phone": "+1 (555) 728-1920",
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "usr_1791380947709_ztgyo",
+      "firstName": "kdf",
+      "lastName": "mdksa",
+      "username": "smd",
+      "email": "sdm@gmail.com",
+      "passwordHash": "sdmksamdkasfmdkfmdklsfjioajrioqwe233454532874@$#JF",
+      "isEmailVerified": true,
+      "authProvider": "email",
+      "createdAt": "2026-10-07T13:49:07.709Z",
+      "lastLoginAt": "2026-10-07T13:49:07.709Z",
+      "bio": "LifeHub explorer organizing daily focus and life pillars.",
+      "twoFactorEnabled": false
+    }
+  ],
+  "pendingOtps": [],
+  "sessions": [
+    {
+      "token": "lh_tok_sess_1791380947709_n5gpu",
+      "userId": "usr_1791380947709_ztgyo",
+      "createdAt": "2026-10-07T13:49:07.709Z",
+      "expiresAt": 1793972947709
+    },
+    {
+      "token": "lh_tok_sess_g_1791382137045_f9kk7",
+      "userId": "usr_chaitanya_01",
+      "createdAt": "2026-10-07T14:08:57.045Z",
+      "expiresAt": 1793974137045
+    }
+  ],
+  "habits": [
+    {
+      "id": "hbt_01",
+      "userId": "usr_chaitanya_01",
+      "title": "Morning Deep Work (90 mins)",
+      "pillar": "Craft",
+      "streak": 14,
+      "completedToday": true,
+      "targetDays": 7,
+      "lastCompletedDate": "2026-10-07"
+    },
+    {
+      "id": "hbt_02",
+      "userId": "usr_chaitanya_01",
+      "title": "Zone 2 Cardio or Strength Training",
+      "pillar": "Health",
+      "streak": 9,
+      "completedToday": false,
+      "targetDays": 5
+    },
+    {
+      "id": "hbt_03",
+      "userId": "usr_chaitanya_01",
+      "title": "Read 20 Pages Non-Fiction",
+      "pillar": "Mind",
+      "streak": 22,
+      "completedToday": true,
+      "targetDays": 7,
+      "lastCompletedDate": "2026-10-07"
+    },
+    {
+      "id": "hbt_04",
+      "userId": "usr_chaitanya_01",
+      "title": "Weekly Budget & Investment Review",
+      "pillar": "Finance",
+      "streak": 6,
+      "completedToday": false,
+      "targetDays": 1
+    },
+    {
+      "id": "hbt_1791380947709_bccri",
+      "userId": "usr_1791380947709_ztgyo",
+      "title": "Morning Focus & Deep Work",
+      "pillar": "Craft",
+      "streak": 1,
+      "completedToday": false,
+      "targetDays": 7
+    },
+    {
+      "id": "hbt_1791380947709_v9a7a",
+      "userId": "usr_1791380947709_ztgyo",
+      "title": "Daily Movement & Cardio",
+      "pillar": "Health",
+      "streak": 1,
+      "completedToday": false,
+      "targetDays": 5
+    },
+    {
+      "id": "hbt_1791380947709_31xr0",
+      "userId": "usr_1791380947709_ztgyo",
+      "title": "Mindful Reading (20 min)",
+      "pillar": "Mind",
+      "streak": 1,
+      "completedToday": false,
+      "targetDays": 7
+    },
+    {
+      "id": "hbt_1791380947709_01qxi",
+      "userId": "usr_1791380947709_ztgyo",
+      "title": "Weekly Wealth & Savings Check",
+      "pillar": "Finance",
+      "streak": 1,
+      "completedToday": false,
+      "targetDays": 1
+    }
+  ],
+  "activities": [
+    {
+      "id": "act_1791382137045_dzu7z",
+      "userId": "usr_chaitanya_01",
+      "action": "Google Single Sign-On",
+      "timestamp": "2026-10-07T14:08:57.045Z",
+      "details": "Signed in with verified Google account (chaitanyaparker08@gmail.com).",
+      "type": "auth"
+    },
+    {
+      "id": "act_1791380947709_7fanx",
+      "userId": "usr_1791380947709_ztgyo",
+      "action": "Account Verified & Activated",
+      "timestamp": "2026-10-07T13:49:07.709Z",
+      "details": "Account @smd registered with email OTP.",
+      "type": "auth"
+    },
+    {
+      "id": "act_seed_01",
+      "userId": "usr_chaitanya_01",
+      "action": "LifeHub Account Initialized",
+      "timestamp": "2026-10-07T13:30:48.954Z",
+      "details": "Google OAuth Single Sign-On link verified.",
+      "type": "auth"
+    }
+  ],
+  "sentEmails": [
+    {
+      "id": "mail_1791380929127_ysu98",
+      "to": "sdm@gmail.com",
+      "subject": "Verify your LifeHub account - 6-Digit Code",
+      "otp": "127512",
+      "sentAt": "2026-10-07T13:48:49.127Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_01",
+      "userId": "usr_chaitanya_01",
+      "title": "Review quarterly architecture blueprint",
+      "status": "pending",
+      "priority": "high",
+      "dueDate": "2026-10-08",
+      "category": "Work"
+    },
+    {
+      "id": "tsk_02",
+      "userId": "usr_chaitanya_01",
+      "title": "Submit utility & server invoice expense report",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2026-10-09",
+      "category": "Finance"
+    },
+    {
+      "id": "tsk_03",
+      "userId": "usr_chaitanya_01",
+      "title": "Schedule quarterly dental checkup",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-10-07",
+      "category": "Health"
+    },
+    {
+      "id": "tsk_04",
+      "userId": "usr_chaitanya_01",
+      "title": "Research TypeScript 5.8 performance updates",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2026-10-11",
+      "category": "Learning"
+    }
+  ],
+  "notes": [
+    {
+      "id": "not_01",
+      "userId": "usr_chaitanya_01",
+      "title": "Weekly Sprint Focus & Priorities",
+      "content": "1. Ship the full LifeHub task & calendar modules.\n2. Consolidate cloud infrastructure costs.\n3. Keep consistent zone-2 running baseline.",
+      "tag": "Work",
+      "updatedAt": "2026-10-07T13:47:11.934Z",
+      "color": "emerald"
+    },
+    {
+      "id": "not_02",
+      "userId": "usr_chaitanya_01",
+      "title": "Book Recommendations 2026",
+      "content": "• \"Thinking in Systems\" - Donella Meadows\n• \"Designing Data-Intensive Applications\" - Martin Kleppmann\n• \"Breath\" - James Nestor",
+      "tag": "Reading",
+      "updatedAt": "2026-10-06T13:47:11.934Z",
+      "color": "teal"
+    },
+    {
+      "id": "not_03",
+      "userId": "usr_chaitanya_01",
+      "title": "Investment & Asset Allocation Strategy",
+      "content": "Rebalance index fund DCA at month end. Ensure 6-month liquid emergency reserve in high-yield account.",
+      "tag": "Finance",
+      "updatedAt": "2026-10-04T13:47:11.934Z",
+      "color": "blue"
+    }
+  ],
+  "calendarEvents": [
+    {
+      "id": "evt_01",
+      "userId": "usr_chaitanya_01",
+      "title": "LifeHub Product Sync & Design Review",
+      "date": "2026-10-07",
+      "time": "14:00",
+      "category": "Product",
+      "location": "Virtual Room A"
+    },
+    {
+      "id": "evt_02",
+      "userId": "usr_chaitanya_01",
+      "title": "Quarterly Financial Planning Session",
+      "date": "2026-10-08",
+      "time": "10:30",
+      "category": "Finance",
+      "location": "Home Office"
+    },
+    {
+      "id": "evt_03",
+      "userId": "usr_chaitanya_01",
+      "title": "Cardio Training & Recovery",
+      "date": "2026-10-09",
+      "time": "07:30",
+      "category": "Health",
+      "location": "Athletic Center"
+    }
+  ],
+  "bills": [
+    {
+      "id": "bil_01",
+      "userId": "usr_chaitanya_01",
+      "title": "High-Speed Fiber Internet",
+      "amount": 65,
+      "dueDate": "2026-10-10",
+      "status": "pending",
+      "category": "Utilities",
+      "recurring": "Monthly"
+    },
+    {
+      "id": "bil_02",
+      "userId": "usr_chaitanya_01",
+      "title": "Cloud Infrastructure & Server Hosting",
+      "amount": 142.5,
+      "dueDate": "2026-10-13",
+      "status": "pending",
+      "category": "Cloud Services",
+      "recurring": "Monthly"
+    },
+    {
+      "id": "bil_03",
+      "userId": "usr_chaitanya_01",
+      "title": "Health & Gym Membership",
+      "amount": 80,
+      "dueDate": "2026-10-05",
+      "status": "paid",
+      "category": "Health",
+      "recurring": "Monthly"
+    },
+    {
+      "id": "bil_04",
+      "userId": "usr_chaitanya_01",
+      "title": "Clean Energy Electric Utility",
+      "amount": 94.2,
+      "dueDate": "2026-10-18",
+      "status": "pending",
+      "category": "Utilities",
+      "recurring": "Monthly"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_01",
+      "userId": "usr_chaitanya_01",
+      "title": "Fiber Internet Bill Due Soon",
+      "message": "Payment of $65.00 is due in 3 days. Check Bills tab to review.",
+      "time": "2026-10-07T12:47:11.934Z",
+      "read": false,
+      "type": "bill"
+    },
+    {
+      "id": "notif_02",
+      "userId": "usr_chaitanya_01",
+      "title": "Calendar: Product Sync in 2 Hours",
+      "message": "LifeHub Product Sync & Design Review begins at 14:00.",
+      "time": "2026-10-07T11:47:11.934Z",
+      "read": false,
+      "type": "calendar"
+    },
+    {
+      "id": "notif_03",
+      "userId": "usr_chaitanya_01",
+      "title": "High Priority Task Deadline",
+      "message": "\"Review quarterly architecture blueprint\" is due tomorrow.",
+      "time": "2026-10-06T13:47:11.934Z",
+      "read": true,
+      "type": "task"
+    }
+  ],
+  "contactMessages": [
+    {
+      "id": "msg_1791382647443_z5n35",
+      "name": "Chaitanya Parker",
+      "email": "chaitanyaparker08@gmail.com",
+      "message": "Hello LifeHub team!",
+      "createdAt": "2026-10-07T14:17:27.443Z"
+    }
+  ]
+}

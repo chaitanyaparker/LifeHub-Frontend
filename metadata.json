@@ -1,0 +1,6 @@
+{
+  "name": "AuthForge & Dashboard Portal",
+  "description": "Full-featured authentication system frontend with email registration, 6-digit OTP verification, login, Google OAuth integration, and user dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
